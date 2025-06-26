@@ -1432,7 +1432,7 @@ h1 {
 
 
 h1 {
-	margin-top: 120px;
+	margin-top: 60px;
     font-weight: 800;
     font-size: 22px;
 	text-align: center;
@@ -1442,7 +1442,7 @@ h1 {
 	grid-template-columns: 1fr;
     justify-self: center;
     width: 90%;
-    margin-top: 200px;
+    margin-top: 50px;
     margin-left: 40px;
 	
     
@@ -1484,11 +1484,11 @@ h1 {
 .center-grid {
 	
 	height: 294px;
-	margin-left: 20px;
+	
 	padding-top: -160px;
 	margin-bottom: -115px;
 	width: 90%;
-	width: 400px;
+	width: 450px;
 }
 
 
@@ -1498,7 +1498,9 @@ h1 {
 	margin-top: 130px;
 	height: 280px;
 	width: 85%;
-	margin-left: 20px;
+    width: 450px;
+    margin-left: 15px;
+	
 	
 }
 
@@ -1529,6 +1531,17 @@ h1 {
 		font-size: 9px;
 		margin-top: 25px;
 	}
+
+
+
+    body {
+    background-image: url(images/a1.png);
+    animation: change 10s infinite ease-in-out;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 9%;
+    }
+
 
 	.logo-name {
 	margin-bottom: -17px;
